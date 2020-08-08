@@ -1,0 +1,80 @@
+.box1 {
+	width: 945px;
+	height: 370px;
+
+	background-image: url("../img/01.jpg");
+	/* 以下推奨 */
+	/* 背景画像を繰り返さない */
+	background-repeat: no-repeat;
+	/* 背景画像を上下左右中央寄せ */
+	background-position: center center;
+	/* サイズを枠内に収める */
+	/* 画像が大きいときはポジションで調整できる */
+	background-size: cover;
+	/* 中央寄せ */
+
+	margin-left: auto;
+	margin-left: auto;
+	/* 短いバージョン
+	background: url("../img/01.jpg") no-repeat center center;
+	background-size: cover; */
+	/* margin: 0 auto; */
+}
+
+.box2 {
+	width: 945px;
+	height: 370px;
+
+	background-image: url("../img/02.jpg");
+	/* 以下推奨 */
+	/* 背景画像を繰り返さない */
+	background-repeat: no-repeat;
+	/* 背景画像を上下左右中央寄せ */
+	background-position: center center;
+	/* サイズを枠内に収める */
+	/* 画像が大きいときはポジションで調整できる */
+	background-size: cover;
+	/* 中央寄せ */
+
+	margin-left: auto;
+	margin-left: auto;
+	/* 短いバージョン
+	background: url("../img/01.jpg") no-repeat center center;
+	background-size: cover; */
+	/* margin: 0 auto; */
+}
+
+
+.box1 p {
+	color: white;
+	font-size: 50px;
+	font-weight: bold;
+	text-align: center;
+	padding-top: 165px;
+}
+
+.box2 p {
+	color: white;
+	font-size: 50px;
+	font-weight: bold;
+	text-align: center;
+	padding-top: 165px;
+}
+
+.box2_title p {
+	color: white;
+	font-size: 50px;
+	font-weight: bold;
+	text-align: center;
+	padding-top: 165px;
+}
+
+.box2_text p {
+	color: white;
+	font-size: 50px;
+	font-weight: bold;
+	text-align: center;
+	padding-top: 165px;
+}
+
+/* 幅が決まっているものはmarginの左右がautoじゃないと中央に来ない */
